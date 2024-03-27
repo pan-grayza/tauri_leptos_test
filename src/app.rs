@@ -57,7 +57,7 @@ pub fn App() -> impl IntoView {
                 if new_value != old_value {
                     set_is_light_theme.set(new_value);
                 };
-                // sleep(Duration::from_millis(100)).await;
+                // sleep(Duration::from_millis(2000)).await;
             }
         });
     };
